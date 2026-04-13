@@ -3,17 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="index.css">
-    <title>Puzzle Play</title>
     <script src="app.js" defer></script>
-    
 </head>
 <body>
-    <div class="puzzle-container">
-    <div id="board"></div>
-    <button id="shuffle-btn" onclick="shuffle()"> Click To Shuffle</button>
-    <p id="message"></p>
-</div>
-<script src="script.js"></script>
+    <div class="container">
+        <h1 class="tile">1</h1>
+        <h1 class="tile">2</h1>
+        <h1 class="tile">3</h1>
+        <h1 class="tile">4</h1>
+        <h1 class="tile">5</h1>
+        <h1 class="tile">6</h1>
+        <h1 class="tile">7</h1>
+        <h1 class="tile">8</h1>
+        <h1 class="tile" id="empty-tile"></h1>
+    </div>
+    <div id="shuffleBtn">
+        <button onclick="shuffleTiles()">Click To Shuffle</button>
+    </div>
+    
+    
 </body>
 </html>
